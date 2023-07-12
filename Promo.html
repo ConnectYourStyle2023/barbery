@@ -1,0 +1,140 @@
+<html>
+<head>
+	<title>Barber Shop</title>
+	<link rel="stylesheet" href="css.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100&display=swap" rel="stylesheet">
+	
+	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+<section id="banner">
+	<img src="Barber_Shop_img/logo.png" class="logo">
+	<div class="banner-text">
+		<h1>Hair Studio</h1>
+		<p>Style your hais is style your life</p>
+		<div class="banner-btn">
+			<a href="Promo.html"><span></span><strong>PROMOS</strong></a>
+			<a href="ref.html"><span></span><strong>READ MODE</strong></a>
+		</div>
+	</div>
+</section>	
+	
+<div id="sideNav">
+	<nav>
+		<ul>
+			<li><a href="#banner"><a href="home.html">HOME</a></a></li>
+			
+		</ul>
+	</nav>
+</div>	
+<div id="menuBtn">
+	<img src="Barber_Shop_img/menu.png" id="menu">
+</div>	
+	
+	<!--f e a t u r e s -->
+	
+	<section id="feature">
+	<div class="title-text">
+	<p>Promos&nbsp;</p>
+	<h1>Selling period: JULY 15 - 30 2021&nbsp; &nbsp;&nbsp;</h1>
+	</div>
+		<div class="feature-box">
+		<div class="features">
+			<h1><strong>How will you go about your salon visit?</strong></h1>
+			Before going to the Salon
+				<div class="features-desc">
+				<div class="feature-icon">
+					
+				</div>
+				<div class="feature-text">
+					<p><strong>eVoucher Terms and Conditions</strong></p>
+<p>a. The client must present eVoucher from David’s Salon,
+(printed or digital copy) before availing the service.</p>
+<p>b.eVoucher is for hair service only.</p>
+<p>c.Validity date: July 12 – 31, 2021 |Monday – Sunday | Except Holiday.</p>
+<p>d.Client must book their appointment in advance before going to the salon</p>
+<p>e. This evoucher is non-refundable and cannot be exchanged for cash in part or full and
+is valid for a single transaction only.</p>
+<p>f. This voucher is not valid during sale or in conjunction with any special promotion.</p>
+<p>g.We are not responsible if a e-ticket voucher is lost, stolen, damaged or destroyed
+and no replacement will be provided in these circumstances.</p>
+<p>h. Not valid to purchase over the counter product.</p>
+
+
+				</div>
+			</div>
+			
+			
+		</div>
+		<div class="features-img"> </div>
+	</div>
+	
+	</section>
+	 
+	
+	
+	<section id="footer">
+		<img src="Barber_Shop_img/footer-img.png" class="footer-img"> 
+		<div class="title-text">
+			<p>CONTACT</p>
+			<h1>VISIT SHOP TODAY</h1>
+		</div>
+		
+		<div class="footer-row">
+		<div class="footer-left">
+			<h1>Opening Hours</h1>
+			<p><i class="fa fa-clock-o"></i> <strong>MONDAY TO FRIDAY -  9:00am to 9:00pm</strong></p>
+			<p><i class="fa fa-clock-o"></i> <strong>SATURDAY TO SUNDAY - 8:00am to 11:00pm</strong></p>
+			</div>
+		<div class="footer-right">
+			<h1>Get in touch</h1>
+			
+			<p><strong>#123 PASIG, METRO MANILA, PHILIPPINES</strong> <i class="fa fa-map-marker"></i></p>
+			<p><strong>BARBER@SHOP.COM</strong> <i class="fa fa-paper-plane"></i></p>
+			<p><strong>+639123456789</strong> <i class="fa fa-phone"></i></p>
+			</div>
+		
+		</div>
+		
+		<div class="social-links">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-youtube"></i>
+			<p><strong>COPYRIGHT 2021</strong></p>
+		</div>
+		
+		
+	</section>
+	
+	<script>
+	var menuBtn = document.getElementById("menuBtn")
+	var sideNav = document.getElementById("sideNav")
+	var menu = document.getElementById("menu")
+	
+	sideNav.style.right = "-250px";
+	
+	menuBtn.onclick = function(){
+		if(sideNav.style.right == "-250px"){
+			sideNav.style.right = "0";
+			menu.src="Barber_Shop_img/close.png";
+		}
+		else{
+			sideNav.style.right = "-250px";
+			menu.src="Barber_Shop_img/menu.png";
+		}
+	}
+	
+	
+	var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+	</script>
+	
+	
+	
+</body>
+</html>
